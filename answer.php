@@ -36,10 +36,10 @@
           $fahrenheitNumber = $_GET["dgree-in-fahrenheit"];
 
           // process
-          $convertFahrenheitToCelsius = ($fahrenheitNumber - 32) * (5/9)
+          $convertFahrenheitToCelsius = ($fahrenheitNumber - 32) * (5/9);
 
           // output
-          echo $fahrenheitNumber. "your number in Celsius is: " . round($convertFahrenheitToCelsius, 3) . "°C";
+          echo "your number in Celsius is:" . round($convertFahrenheitToCelsius, 3) . "°C";
           echo "<br />";
           ?>
         </div>
